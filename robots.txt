@@ -1,0 +1,18 @@
+User-agent: *
+
+# Quoderat
+Disallow: /blogs/quoderat/page/
+Disallow: /blogs/quoderat/category/
+Disallow: /blogs/quoderat/wp-admin/
+
+# Land and Hold Short
+Disallow: /blogs/lahso/page/
+Disallow: /blogs/lahso/category/
+Disallow: /blogs/lahso/wp-admin/
+
+# Experimental ids
+Disallow: /exp/id/
+
+# Search results
+Disallow: /search/
+
