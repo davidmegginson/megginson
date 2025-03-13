@@ -1,12 +1,57 @@
 body {
     font-family: Garamond, serif;
-    color: #330000;
-    background: #fefffe;
+    margin: 1em;
+}
+
+main, header {
+    display: block;
     max-width: 45em;
+    margin: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    font-size: 83.333333%;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+main {
+    line-height: 1.5;
 }
 
 h1, h2 {
-    color: #661111;
+    font-family: Helvetica, sans-serif;
+    font-weight: normal;
+    line-height: normal;
+    color: #333333;
+}
+
+h1 {
+    font-size: 207.36%;
+}
+
+h2 {
+    font-size: 172.8%;
+}
+
+figure.headshot img {
+    display: block;
+    width: 100%;
+    float: none;
+}
+
+@media only screen and (min-width: 600px) {
+
+    figure.headshot img {
+        width: 20em;
+        float: right;
+        padding-left: 1em;
+        padding-bottom: 1em;
+    }
 }
 
 li {
@@ -14,7 +59,6 @@ li {
 }
 
 li::marker {
-    color: #661111;
     font-size: 120%;
 }
 
@@ -23,8 +67,8 @@ dt {
     text-align: right;
     padding-right: 1ex;
     font-weight: bold;
-    color: #661111;
     width: 6em;
+    color: #333333;
 }
 
 dt::after {
@@ -38,4 +82,11 @@ dd {
 
 dt, dd {
     margin-bottom: 1ex;
+}
+
+footer {
+    margin-top: 4ex;
+    color: #333333;
+    font-style: italic;
+    font-size: 83.33333%;
 }
