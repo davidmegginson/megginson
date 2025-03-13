@@ -3,7 +3,7 @@ body {
     margin: 1em;
 }
 
-main, header {
+header, main, footer {
     display: block;
     max-width: 45em;
     margin: auto;
