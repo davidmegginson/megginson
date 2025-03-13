@@ -22,6 +22,13 @@ h3 {
   display: none;
 }
 
+.notice {
+    background: yellow;
+    padding: 2ex;
+    border-radius: 2ex;
+    font-size: 110%;
+}
+
 #header {
   position: absolute;
   top: 0;
